@@ -1,13 +1,13 @@
 const yearOfBirth = 1987;
 const yearOfFutrue=2027;
 const age = yearOfFutrue - yearOfBirth;
-console.log("You will be "+age+ " years old in "+yearOfFutrue+".");
+console.log(`You will be ${age} years old in ${yearOfFutrue}.`);
 
 
 const dogYearOfBirth= 2021;
 const dogYearFuture=2027;
 let dogYear= dogYearFuture - dogYearOfBirth;
-let shouldShowResultInDogYears= true;
+const shouldShowResultInDogYears= true;
 if(shouldShowResultInDogYears)
     {
         dogYear*=7;
@@ -18,12 +18,12 @@ else{
 }
 
 
-const houseOfPeter=8*10*10;
-const houseOfJulia=5*11*8;
+const peterHouseM2=8*10*10;
+const juliaHouseM2=5*11*8;
 const gardenOfPeter=100;
 const gardenOfJulia=70;
-const peterHousePriceShouldBe=houseOfPeter*2.5*1000+gardenOfPeter*300;
-const juliahousePriceShouldBe=houseOfJulia*2.5*1000+gardenOfJulia*300;
+const peterHousePriceShouldBe=peterHouseM2*2.5*1000+gardenOfPeter*300;
+const juliahousePriceShouldBe=juliaHouseM2*2.5*1000+gardenOfJulia*300;
 const peterHousePriceCost= 2500000;
 const juliahousePriceCost=1000000;
 if(peterHousePriceCost<=peterHousePriceShouldBe)
@@ -45,6 +45,6 @@ const randomNumber2 = Math.floor(Math.random() * 10);
 
 const firstWords=["fabulous","splendid","mysterious","magical","blur","bluffing","sweet","scary","jumping","sleeping"]
 const secondWords=["spaceship","robot","yoga","elephant","box","burger","vegie","giraffe","mammi","tomato"]
-let startupName =firstWords[randomNumber1]+" "+secondWords[randomNumber2]
-let startupNameLength= startupName.length
+const startupName =firstWords[randomNumber1]+" "+secondWords[randomNumber2]
+const startupNameLength= startupName.length
 console.log(`The startup: "${startupName}" contains ${startupNameLength} characters.`);
